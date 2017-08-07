@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,20 @@
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
-
+    
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCWQDxw3NTOwfoj2fz0k6NGqT-9H5EEGhg",
+            authDomain: "torchmessage.firebaseapp.com",
+            databaseURL: "https://torchmessage.firebaseio.com",
+            projectId: "torchmessage",
+            storageBucket: "",
+            messagingSenderId: "297442145672"
+        };
+        firebase.initializeApp(config);
+    </script>
 
 
 
@@ -28,7 +41,7 @@
 <body>
 
     <!--Add your name-->
-    <h1>Bob's Messaging App</h1>
+    <h1>Andre's Messaging Site</h1>
 
     <!--Will be populated with messages-->
     <div class="allMessages">
